@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    double f,m;
+    int counter=0,n;
+
+    cin>>n;
+    for(f=1.0;f<=n; f++){
+        m=f/3.28;
+        cout<<f<<" feet is "<<m<<" meters.\n";
+
+    counter++;
+    if(counter==10){
+        cout<<"\n";
+        counter=0;
+
+    }
+    }
+    return 0;
+}
